@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Oswald:wght@600&family=Oswald:wght@600&family=Pacifico&family=Rowdies:wght@300;400&family=Rowdies:wght@300;400&display=Comic+Neue:ital@1&family=Oswald:wght@600&family=Pacifico&family=Poppins:wght@800&family=Rowdies:wght@300;400&display=Ruslan+Display&display=swap');
+
+body{ /* This rule sets initial styles for the entire webpage, including margin, padding, and overflow properties. */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s;
+    overflow-x: hidden;
+    height: 200vh;
+    transition: 2s;
+    background-image: url("../media/bg.png");
+}
+
+.container{ /* Setting the height of the .container to max-content */
+    height: max-content;
+}
+div.navbar div{ /* Adding margin to div elements inside .navbar */
+    margin: 5px;
+}
+.navbar{ /* styles the navigation bar, including its background color, padding, and dimensions. */ 
+    border: 1px;
+    background-color: #38B6FF;
+    padding: 2px;
+    width: 100%;
+    height: 70px;
+}
+#home{
+    background-color: #F93B9A;
+    margin-left: 70%;
+
+}
+#home a {
+    color: #00E7F6;
+    font-family: 'Poppins';
+}
+#advopi{
+    background-color: #F93B9A;
+    margin-right: 2px;
+}
+#advopi a{
+    color: #00E7F6;
+    font-family: 'Poppins';
+}
+#aboutus{
+    background-color: #F93B9A;
+    margin-right: 2px;
+}
+#aboutus a{
+    color: #00E7F6;
+    font-family: 'Poppins';
+}
+.links:hover{ /*It sets transitions and adjusts the font size and padding. */
+    transition: .3s;
+    font-size: larger;
+    padding: 6px; 
+}
+.links a{ /*Removes the underline decorations of the elements in class 'links'.*/
+    text-decoration: none;
+}
+.links { /* Styles the 'links' class elements. */
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+    padding: 10px;
+    border-radius: 7px;
+}
+#logo{ /*Styles the element/s with ID 'logo. */
+    display: inline-flex;
+    padding-top: 1.5px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+#logo img{ /* Fixes the size of the image in the 'logo' ID. */
+    height: 70px;
+    width: 90px;
+    margin-top: -120%;
+}
+.bannerhead{
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    background-color:#F93B9A;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: 20px; 
+}
+#b h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 4.5vw;
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
+}
+#slogan p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
+}
+.background{
+    position: absolute;
+    top: 92%;
+    left: -8%;
+    border-radius: 10px;
+    max-width: 40%;
+    margin-left: 130px;
+    background-color: #54BFC4;
+}
+
+.background h1{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-inline-end: 5%;
+    padding-inline-start: 5%;
+}
+.background p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: large;
+    padding-inline-end: 4%;
+    padding-inline-start: 4%;
+}
+.wwhdsf{
+    position: absolute;
+    top: 92%;
+    left: 48%;
+    border-radius: 10px;
+    max-width: 40%;
+    margin-left: 130px;
+    background-color: #54BFC4 ;
+}
+.wwhdsf h1{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-inline-end: 5%;
+    padding-inline-start: 5%;
+}
+.wwhdsf p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: medium;
+    padding-inline-end: 4%;
+    padding-inline-start: 4%;
+}
+
+
+
+
+
+
+
+.footer{ /*Fixes the position at the bottom, sets the background color, height, and width of the elements in the footer. */
+    background-color: #38B6FF;
+    position: fixed;
+    bottom: 0%;
+    height: 50px;
+    margin: 0;
+    width: 100vw;
+}
+.sicon {
+    background: url("../media/sprite3.png/");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    display: inline-block;  
+}
+#ig {
+    background-position: -290px -221px;
+}
+#twt {
+    background-position: -66px -72px;
+}
+#yt {
+    background-position: -439px -221px;
+}
+#pin {
+    background-position: -141px -221px;
+}
